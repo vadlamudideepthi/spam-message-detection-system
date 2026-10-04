@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Message Detection System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>📩 Spam Message Detection</h1>
+    <p class="subtitle">
+        Check whether a message is Spam or Not Spam
+    </p>
+
+    <textarea id="message"
+        placeholder="Enter your message here..."></textarea>
+
+    <div class="buttons">
+        <button onclick="checkSpam()">Check Message</button>
+        <button class="clear" onclick="clearMessage()">Clear</button>
+    </div>
+
+    <div id="result" class="result">
+        <h2>Result</h2>
+        <p id="resultText">Enter a message to check.</p>
+    </div>
+
+    <div class="examples">
+        <h3>Try Example Messages</h3>
+
+        <button onclick="setExample('Congratulations! You won a free prize. Click now to claim your reward!')">
+            Spam Example
+        </button>
+
+        <button onclick="setExample('Hi, are you coming to college today?')">
+            Normal Example
+        </button>
+    </div>
+
+    <div class="info">
+        <h3>How it works</h3>
+        <p>
+            The system checks the message for common spam words
+            such as "free", "winner", "prize", "offer", and "click".
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
